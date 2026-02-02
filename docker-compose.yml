@@ -13,7 +13,7 @@ services:
     environment:
       - TZ=Europe/Moscow  # your timezone
       
-    restart: unless-stopped  # autostert after reboot VM
+    restart: unless-stopped  # autostart after reboot VM
     
     # uncomment if you have GPU for transcoding:
     # devices:
